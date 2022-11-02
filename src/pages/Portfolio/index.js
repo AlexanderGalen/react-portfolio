@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function PortFolio() {
   return (
-    <div>Portfolio</div>
+    <div className="portfolio">
+        TODO: Transfer over portfolio
+    </div>
   )
 }
