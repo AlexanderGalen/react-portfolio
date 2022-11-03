@@ -5,33 +5,43 @@ import nutriImage from "./assets/nutriTeam.png"
 
 export default function PortFolio() {
   return (
-    <div className="portfolio">
-      <Project
-        image={nutriImage}
-        title={"NutriTeam : Nutrition App"}
-        github={"https://github.com/AlexanderGalen/NutriTech"}
-        link={"https://rubendc91.github.io/NutriTeam/"}
-      />
-      <Project
-        image={chatImage}
-        title={"Chattable : Instant Messaging App"}
-        github={"https://github.com/AlexanderGalen/Chattable"}
-        link={"https://corgi-messenger.herokuapp.com/login"}
-      />
-      <Project
-        image={"https://picsum.photos/200/300"}
-        title={"Project 3"}
-        github={"https://github.com/AlexanderGalen/"}
-        link={"#"}
-
-      />
-      <Project
-        image={"https://picsum.photos/200/300"}
-        title={"Project 4"}
-        github={"https://github.com/AlexanderGalen/"}
-        link={"#"}
-      />
-
+    <div className="projects">
+      <div className="row" > 
+        <div className="col-6">
+          <Project
+            image={nutriImage}
+            title={"NutriTeam : Nutrition App"}
+            github={"https://github.com/AlexanderGalen/NutriTech"}
+            link={"https://rubendc91.github.io/NutriTeam/"}
+          />
+        </div>
+        <div className="col-6">
+          <Project
+            image={chatImage}
+            title={"Chattable : Instant Messaging App"}
+            github={"https://github.com/AlexanderGalen/Chattable"}
+            link={"https://corgi-messenger.herokuapp.com/login"}
+          />
+        </div>
+      </div>
+      <div className="row" > 
+        <div className="col-6">
+          <Project
+            image={"https://picsum.photos/200/300"}
+            title={"Project 3"}
+            github={"https://github.com/AlexanderGalen/"}
+            link={"#"}
+          />
+        </div>
+        <div className="col-6">
+        <Project
+          image={"https://picsum.photos/200/300"}
+          title={"Project 4"}
+          github={"https://github.com/AlexanderGalen/"}
+          link={"#"}
+        />
+        </div>
+      </div>
     </div>
   )
 }
