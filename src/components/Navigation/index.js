@@ -1,25 +1,23 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "./style.css";
 
 export default function Navigation() {
-
-  // todo: highlight currently active page
 
   return (
     <nav className="navigation col-6 align-items-center">
       <div className="row p-0 pt-2 m-0 text-center">
         <h5 className="col-3 text-white">
-          <Link to="/about">About Me</Link>
+          <NavLink activeClassName="selected" to="/about">About Me</NavLink>
         </h5>
         <h5 className="col-3 text-white">
-          <Link to="/portfolio">Portfolio</Link>
+          <NavLink activeClassName="selected" to="/portfolio">Portfolio</NavLink>
         </h5>
         <h5 className="col-3 text-white">
-          <Link to="/contact">Contact</Link>
+          <NavLink activeClassName="selected" to="/contact">Contact</NavLink>
         </h5>
         <h5 className="col-3 text-white">
-          <Link to="/resume">Resume</Link>
+          <NavLink activeClassName="selected" to="/resume">Resume</NavLink>
         </h5>
       </div>
     </nav>
