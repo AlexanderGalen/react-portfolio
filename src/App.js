@@ -19,7 +19,7 @@ export default function App() {
 			<div className="container">
 				<Routes>
 					{/* default to about me if no specific page was requested */}
-					<Route path="/" element={<About/>}/>
+					<Route path="/*" element={<About/>}/>
 					<Route path="/about" element={<About/>}/>
 					<Route path="/contact" element={<Contact/>}/>
 					<Route path="/portfolio" element={<Portfolio/>}/>
