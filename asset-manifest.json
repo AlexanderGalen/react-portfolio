@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fc272c5.css",
+    "main.js": "/static/js/main.cf2b9383.js",
+    "static/media/nutriTeam.png": "/static/media/nutriTeam.84274da1df5e56d3695c.png",
+    "static/media/chat.png": "/static/media/chat.04bcb46b8e3ffe8c83e5.png",
+    "static/media/headshot.jpg": "/static/media/headshot.66d07e5cbab791f6744c.jpg",
+    "index.html": "/index.html",
+    "main.5fc272c5.css.map": "/static/css/main.5fc272c5.css.map",
+    "main.cf2b9383.js.map": "/static/js/main.cf2b9383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fc272c5.css",
+    "static/js/main.cf2b9383.js"
+  ]
+}
