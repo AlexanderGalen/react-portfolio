@@ -15,9 +15,8 @@ import {
 export default function App() {
 	return (
 		<Router>
-			<div className="App">
-				<Header/>
-
+		<Header/>
+			<div className="container">
 				<Routes>
 					{/* default to about me if no specific page was requested */}
 					<Route path="/" element={<About/>}/>

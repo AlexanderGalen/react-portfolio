@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-export default function Project() {
+export default function Project({ image, title, github, link }) {
   return (
-    <div>Project</div>
-  )
+    <div className="project">
+      <a href={link}><h2>{title}</h2></a>
+      <img src={image} alt={`screenshot of project`} />
+    </div>
+  );
 }
