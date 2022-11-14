@@ -31,7 +31,7 @@ export default function PortFolio() {
             image={catDogImage}
             title={"Cats vs Dogs : Web Based Codenames Clone"}
             github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
-            link={"#"}
+            link={"https://mysterious-hollows-84029.herokuapp.com/"}
           />
         </div>
         <div className="col-6">
