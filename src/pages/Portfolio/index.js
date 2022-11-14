@@ -2,6 +2,7 @@ import React from 'react'
 import Project from "../../components/Project";
 import chatImage from "./assets/chat.png";
 import nutriImage from "./assets/nutriTeam.png"
+import catDogImage from "./assets/catsVsDogs.png"
 
 export default function PortFolio() {
   return (
@@ -27,9 +28,9 @@ export default function PortFolio() {
       <div className="row" > 
         <div className="col-6">
           <Project
-            image={"https://picsum.photos/200/300"}
-            title={"Project 3"}
-            github={"https://github.com/AlexanderGalen/"}
+            image={catDogImage}
+            title={"Cats vs Dogs : Web Based Codenames Clone"}
+            github={"https://github.com/AlexanderGalen/Cats-vs-Dogs"}
             link={"#"}
           />
         </div>
